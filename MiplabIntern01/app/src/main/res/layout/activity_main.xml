@@ -18,24 +18,24 @@
         android:layout_marginBottom="10dp">
 
         <Button
-            android:id="@+id/btn_take_camera"
+            android:id="@+id/btn_camera"
             android:layout_width="170dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:text="카메라"
+            android:text="CAMERA"
             android:typeface="sans" />
 
         <Button
-            android:id="@+id/btn_select_gallery"
+            android:id="@+id/btn_gallery"
             android:layout_width="170dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:text="갤러리"
+            android:text="GALLERY"
             android:typeface="sans" />
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView1"
+        android:id="@+id/imageView"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_gravity="center"
